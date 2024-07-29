@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<?php 
+	<?php
+	// Include the header of the page;
 	include("../Shared/InitPage.php");	
 	?>
 </head>
