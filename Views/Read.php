@@ -11,7 +11,9 @@ include('../Shared/InitPage.php');
 ?>
 </head>
 <body>
-<div class="card my-5 mx-5">
+<main class="text-center my-5">
+<a href="Create.php">Data Creater</a>
+<div class="card my-2 mx-5">
 	<div class="card-body">
 	<table class="table table-striped table-hover">
 		 <thead>
@@ -32,7 +34,7 @@ while ($informations = $result->fetch_array()){
 		        echo	'<tr>';
       			echo	"<td>".$informations['id']."</td>";
 			echo	"<td>".$informations['information']."</td>";
-			echo	"<td>"."<a href=\"#\"> Edit </a>"."<span>/</span>"."<a href=\"#\"> Delete </>"."</td>";
+			echo	"<td>"."<a href=\"#\"> Edit </a>"."<span>/</span>"."<a href=\"../Shared/Deleter.php?id=".$informations['id']."\"> Delete </>"."</td>";
       			echo	"</tr>";	
 }
 // Finish the table here;

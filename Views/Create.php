@@ -7,8 +7,9 @@
 	?>
 </head>
 <body>
-	<main>
-		<div class = "card mx-5 my-5">
+	<main  class="text-center my-5">
+		<a href="Read.php">Data Manager</a>
+		<div class = "card mx-5 my-2">
 		<div class = "card-body">
 		<form action="../Shared/Create.php" method="post">
   			<div class="row mb-3">
