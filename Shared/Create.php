@@ -10,4 +10,5 @@ $mysqli->query("INSERT INTO $table ($column) VALUES ('$information');") or die (
 
 // Closing the connection, usually, this is not necessary, but is a too good praticle;
 $mysqli->close();
+header('Location: ../Views/Create.php'); // Get back for the creation page;
 ?>
