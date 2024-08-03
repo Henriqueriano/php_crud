@@ -13,7 +13,7 @@
 		<div class = "card-body">
 		<form action="../Shared/Create.php" method="post">
   			<div class="row mb-3">
-    			<label for="inputEmail3" class="col-sm-2 col-form-label">Information:</label>
+    			<label for="inputInfo" class="col-sm-2 col-form-label">Information:</label>
     			<div class="col-sm-10">
       			<input type="text" class="form-control" id="inputInfo" name="information">
     			</div>

@@ -34,7 +34,7 @@ while ($informations = $result->fetch_array()){
 		        echo	'<tr>';
       			echo	"<td>".$informations['id']."</td>";
 			echo	"<td>".$informations['information']."</td>";
-			echo	"<td>"."<a href=\"#\"> Edit </a>"."<span>/</span>"."<a href=\"../Shared/Deleter.php?id=".$informations['id']."\"> Delete </>"."</td>";
+			echo	"<td>"."<a href=\"Update.php?id=".$informations['id']."\"> Edit </a>"."<span>/</span>"."<a href=\"../Shared/Deleter.php?id=".$informations['id']."\"> Delete </a>"."</td>";
       			echo	"</tr>";	
 }
 // Finish the table here;
