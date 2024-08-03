@@ -26,12 +26,12 @@ $information = $result->fetch_array();
 <div class="card-body">
 	<form action=<?php echo "../Shared/Update.php?id=".$information['id'].""?> method="post">
  		<div class="mb-3">
-     		<p>Informação antiga: <span style="margin-left:4.6rem;color:red" ><?php echo $information['information']; ?></span><p>
+     		<p>Old Information: <span style="margin-left:4.6rem;color:red" ><?php echo $information['information']; ?></span><p>
  		</div>
 	<div class=container">
   	<div class="form-group row">
 	<div class="col col-sm-2 mt-1">
-    		<label for="newInfo" class="form-label">Nova Informação:</label>
+    		<label for="newInfo" class="form-label">New Information:</label>
 	</div>
 	<div class="col">
     		<input type="text" class="form-control" id="newInfo" name="newInfo" width="50">
